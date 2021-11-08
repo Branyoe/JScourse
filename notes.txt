@@ -1,0 +1,28 @@
+arrayMethods__________________________________ 
+
+*metodo sort
+-el metodo sort ordena los elementos de un arreglo alfabeticamente.
+
+*metodo filter.
+-filtra los elementos de un arreglo en un nuevo arreglo según la condición dada.
+
+localStorage____________________________________
+
+*localStorage.
+-información que el navegador alamcena en el almacenamiento de un dispositivo.
+-no sirve para guardar información confidencial pues su acceso es muy sencillo.
+-si el navegador se cierra estos datos siguen almacenados.
+-todos los datos almacenasdos en localStorage son strings y para almacenarce se hace uso de una "key"  y un "Value"
+-para guardar un dato de hace uso del metodo "setItem" el cual recibe como parametros la key y el value en strings.
+-para obtener un dato se hace uso del metodo "getItem" el cual recibe como parametro la key del dato en cuestión.
+-para remover items se usa el metodo removeItem el cual recibe la key del item en cuestión, este metodo solo elimina un item.
+-para limpiar el localStorage se hace uso del metodo clear, el cual elimina todos los items de este mismo.
+
+*JSON notation
+-es la notación de objetos de js y actualmente es un estandar
+-util para intercambiar información entre front y back
+-se puede combertir a string mediante el metodo JSON.stringify el cual recibe el objeto a comvertir.
+-se puede revertir la conversion mediante el metodo JSON.parse
+-Los metodos anterirores son utiles para usa objetos en el localStorage
+
+
